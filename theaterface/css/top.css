@@ -1,0 +1,71 @@
+.wrapper--index{
+	position: relative;
+  min-height: 100%;
+  height: 100%;
+  z-index: 10;
+}
+.contents--index{
+	position: relative;
+	min-height: 100%;
+	height: 100%;
+	background: url(../img/index_bg.jpg)no-repeat;
+	background-size: cover;
+	background-color: #616161;
+}
+.searchArea{
+	position: absolute;
+	top: 38%;
+}
+.searchLogo{
+	width: 80%;
+	margin: 0 auto 2px auto;
+}
+.searchLogo img{
+	width: 100%;
+	display: block;
+}
+.searchBox{
+	width: 85%;
+	margin: 0 auto;
+  position:relative;
+  background-color:#fff;
+  border:1px solid #aaa;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  -o-border-radius:6px;
+  -ms-border-radius:6px;
+  border-radius:6px;
+}
+.searchBox dt{
+  margin-right:40px;
+  padding:8px 0 8px 8px;
+}
+.searchBox dt input{
+  width:100%;
+  height:28px;
+  line-height:28px;
+  background:none;
+  border:none;
+  font-size: 20px;
+}
+.searchBox dd{
+  position:absolute;
+  top:0;
+  right:0;
+}
+.searchBox dd button{
+  display:block;
+  padding:12px;
+  background:none;
+  border:none;
+}
+.searchBox dd button span{
+  display:block;
+  width:23px;
+  height:23px;
+  line-height: 20px;
+  background:url(../img/search_icon.png) no-repeat scroll 0 0;
+  background-size: 100%;
+  position: relative;
+  top: -3px;
+}
