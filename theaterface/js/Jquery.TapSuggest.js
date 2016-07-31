@@ -25,7 +25,7 @@
 			tsListCount : 10,
 			tsReloadTimer : 300,
 			tsCloseTimer : 500,
-			tsFormAutoSubmit : true,
+			tsFormAutoSubmit : false,
 			tsUlClass : 'TapSuggest',
 			tsAjaxUrl : '',
 			tsAjaxParam : 'str',
