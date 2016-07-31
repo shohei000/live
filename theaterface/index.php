@@ -9,7 +9,7 @@
 			
 			
 				<div class="formArea">
-	        <form method="post" action="/<?php echo $_POST['tsInput'] ?>">
+	        <form method="post" action="<?php echo $_POST['tsInput'] ?>">
 	        	<dl class="searchBox">
 							<dt><input type="text" class="tsInput" name="tsInput" value="<?php echo $_POST['tsInput'] ?>"></dt>
 							<dd><button type="submit" name="" value=""><span></span></button></dd>
